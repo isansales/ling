@@ -16,7 +16,8 @@ Para mais informações acesse [Aula 07: Funções e Recursividade.](https://cai
 
 ***
 
-1. Escreva uma função que receba um número inteiro positivo $N$ e retorne a soma de todosos números inteiros de $1$ até $N$. Obs.: $N$ deve ser maior que $0$.
+1. Escreva uma função que receba um número inteiro positivo $N$ e retorne a soma 
+de todos os números inteiros de $1$ até $N$. Obs.: $N$ deve ser maior que $0$.
 
 2. Implemente uma função para calcular o fatorial de um número inteiro $N$ digitado pelo usuário.
 

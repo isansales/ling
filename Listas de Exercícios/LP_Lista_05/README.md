@@ -34,7 +34,7 @@ Para mais informações acesse [Aula 06: Vetores e Matrizes.](https://cainaantun
 
 6. Declare e inicialize um vetor, em seguida inverta a sequência dos valores armazenados neste mesmo vetor. 
     
-    > <font color="red"> **Restrição:** utilizar apenas um vetor e uma variável auxiliar </font>
+    > <font color="red"> **Restrição:** utilizar apenas um vetor e ua variável auxiliar </font>
 
 7. Receber uma matriz 5x5 e encontrar a maior soma entre suas colunas e a maior somaentre suas linhas.
 
