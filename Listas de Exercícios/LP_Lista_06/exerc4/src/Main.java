@@ -15,7 +15,6 @@ public class Main {
     }
 
     public static boolean isPalindrome(String text) {
-        // Remover espaços e transformar em minúsculas para comparação correta
         text = text.replaceAll("\\s+", "").toLowerCase();
 
         int left = 0;
@@ -23,11 +22,11 @@ public class Main {
 
         while (left < right) {
             if (text.charAt(left) != text.charAt(right)) {
-                return false; // Se encontrar caracteres diferentes, não é palíndromo
+                return false;
             }
             left++;
             right--;
         }
-        return true; // Se passou por todo o laço sem problemas, é palíndromo
+        return true;
     }
 }

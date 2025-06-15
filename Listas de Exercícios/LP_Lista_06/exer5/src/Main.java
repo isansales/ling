@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        // Exemplo de array ordenado
         int[] array = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
 
         System.out.println("Array disponível:");

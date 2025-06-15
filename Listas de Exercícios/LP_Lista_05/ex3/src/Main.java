@@ -7,21 +7,21 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your number: ");
+        System.out.print("Insira um número: ");
         int num = scanner.nextInt();
 
         boolean encontrado = false;
 
         for (int i = 0; i< vector.length; i++) {
             if (vector[i] == num) {
-                System.out.println("Found at position " + i);
+                System.out.println("Ache a posição: " + i);
                 encontrado = true;
                 break;
             }
         }
 
         if (!encontrado) {
-            System.out.println("Do not found");
+            System.out.println("Posição não encontrada");
         }
     }
 
