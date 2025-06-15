@@ -1,4 +1,4 @@
-![senai_logo](https://transparencia.sp.senai.br/Content/img/logo-senai.png)
+li![senai_logo](https://transparencia.sp.senai.br/Content/img/logo-senai.png)
 
 # Lista de Exercícios 06: Funções e Recursividade. 
 
@@ -27,7 +27,7 @@ de todos os números inteiros de $1$ até $N$. Obs.: $N$ deve ser maior que $0$.
 
     Exemplos: “ovo”, “tenet”, “abasedotetodesaba”.
 
-5. <font color="red">**Desista! Sem GPT você não vai conseguir!**</font> Implemente uma função para realizar uma busca binária em um array ordenado de inteiros, retornando a posição do elemento buscado ou -1 se o elemento não for encontrado. 
+_5. <font color="red">**Desista! Sem GPT você não vai conseguir!**</font> Implemente uma função para realizar uma busca binária em um array ordenado de inteiros, retornando a posição do elemento buscado ou -1 se o elemento não for encontrado. 
     
     A busca binária é um algoritmo eficiente para encontrar um elemento em um vetor ordenado. Ele funciona dividindo repetidamente o vetor pela metade e determinando em qual metade o elemento buscado pode estar presente. 
     
@@ -35,4 +35,5 @@ de todos os números inteiros de $1$ até $N$. Obs.: $N$ deve ser maior que $0$.
 
     ![alt text](image.png)
 
-6. <font color="red">**Não há nada tão ruim que não possa piorar!**</font> Refaça todos os exercícios anteriores utilizando recursividade.
+6. <font color="red">**Não há nada tão ruim que não possa piorar!**</font>
+Refaça todos os exercícios anteriores utilizando recursividade.

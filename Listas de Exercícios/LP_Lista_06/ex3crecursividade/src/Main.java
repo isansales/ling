@@ -9,23 +9,19 @@ public class Main {
         System.out.println("Enter X: ");
         x = in.nextInt();
 
-        do{
+        do {
             System.out.println("Enter Y: ");
             y = in.nextInt();
-        }
-        while (y<0);
+        } while (y < 0);
+
         System.out.println(x + "^" + y + " = " + powerNumber(x, y));
     }
 
-
-    public static int powerNumber (int x, int y) {
-        if (y==0)
+    // recursividade
+    public static int powerNumber(int x, int y) {
+        if (y == 0) {
             return 1;
-
-        int result = x;
-        for (; y>1; y--) {
-            result *= x;
         }
-        return result;
+        return x * powerNumber(x, y - 1);
     }
 }

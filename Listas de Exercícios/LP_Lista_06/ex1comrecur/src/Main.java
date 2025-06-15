@@ -7,7 +7,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         do {
-            System.out.println("Digite um número maior que zero: ");
+            System.out.println("Digite um numero maior que zero: ");
             n = in.nextInt();
         } while (n <= 0);
 
@@ -15,11 +15,8 @@ public class Main {
     }
 
     public static int somarAntecessores(int n) {
-        int soma = 0;
-        for (int i = 1; i <= n; i++) {
-            soma += i;
-        }
-        return soma;
+        if (n == 1)
+            return 1;
+        return n + somarAntecessores(n - 1);
     }
 }
-
